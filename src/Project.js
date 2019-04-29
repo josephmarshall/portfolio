@@ -5,11 +5,7 @@ import ProjectNavBar from "./ProjectNavBar";
 import CryptonHome from "./CryptonHome"
 
 class Project extends React.Component {
-  state = { modalOpen: false, sawModalOnce: false }
-
-  componentDidMount() {
-    !this.state.sawModalOnce && this.handleOpen()
-  }
+  state = { modalOpen: true, sawModalOnce: false }
 
   handleOpen = () => {
     if (this.props.openTheModal === true)
@@ -33,8 +29,8 @@ class Project extends React.Component {
             {(p.name === "hourglass" || "meine space" || "trollo" || "utube") &&
               <Modal open={this.state.modalOpen} basic onClose={this.handleClose} >
                 <Modal.Content>
-                  <h1>
-                    Login as admin@admin.com w/password: password
+                  <h1>On projects that require a credentials,
+                    login as admin@admin.com w/password: password
                     or register your own user.
             </h1>
                 </Modal.Content>
