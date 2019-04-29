@@ -53,6 +53,6 @@ export const projectData = [
     description:
       "An example task board type app I developed in Ruby on Rails, based loosly on trello.com",
     image: trollo,
-    link: "https://trollo-crl.herokuapp.com"
+    link: "https://trollo-crl.herokuapp.com/"
   }
 ];

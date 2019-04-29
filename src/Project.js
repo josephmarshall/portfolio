@@ -2,6 +2,7 @@ import React from "react";
 import { projectData } from "./projectData";
 import { Container } from "semantic-ui-react";
 import ProjectNavBar from "./ProjectNavBar";
+import CryptonHome from "./CryptonHome"
 
 class Project extends React.Component {
   render() {
@@ -12,7 +13,9 @@ class Project extends React.Component {
     return (
       <Container>
         <ProjectNavBar />
-        <iframe src={p.link} style={{ height: "80vh", width: "100%" }} />
+        {p.name === "CRYPTON" ? (<CryptonHome />) : (
+          <iframe src={p.link} style={{ height: "80vh", width: "100%" }} />
+        )}
       </Container>
     );
   }
