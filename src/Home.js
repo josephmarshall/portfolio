@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Image, Icon } from "semantic-ui-react";
+import { Container, Image, Button } from "semantic-ui-react";
 import { projectData } from "./projectData";
 import ProjectCard from "./ProjectCard";
 import chris from "./chris_portrait.JPG";
@@ -34,7 +34,7 @@ class Home extends React.Component {
             <div
               style={{ fontSize: "1.3em", fontWeight: "bold", padding: "10px" }}
             >
-              {"I build things...Software is one of them."}
+              {"Full Stack Software Developer"}
             </div>
             <div>
               <h4

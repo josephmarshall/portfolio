@@ -2,6 +2,9 @@ import hourglass from "./hourglass_white_inside.png";
 import starwars from "./starwars.png";
 import crypton from "./crypton.png";
 import meinespace from "./meinespace.png";
+import utube from "./utube-icon.png"
+import trollo from "./trollo-icon.png"
+import depStore from "./departmentStoreIcon.png"
 
 export const projectData = [
   {
@@ -35,14 +38,21 @@ export const projectData = [
   {
     name: "Department Store",
     description: "Example app I developed for a notional ecommerce platform.",
-    image: "",
-    link: ""
+    image: depStore,
+    link: "https://department-store.herokuapp.com/"
   },
   {
     name: "U-Tube",
     description:
-      "A YouTube knockoff project I contributed to during a hackathon event at devpoint labs.",
-    image: "",
-    link: ""
+      "A YouTube knockoff project I contributed heavily to during a hackathon event at devpoint labs.",
+    image: utube,
+    link: "https://utube-crl.herokuapp.com"
+  },
+  {
+    name: "Trollo",
+    description:
+      "An example task board type app I developed in Ruby on Rails, based loosly on trello.com",
+    image: trollo,
+    link: "https://trollo-crl.herokuapp.com"
   }
 ];
