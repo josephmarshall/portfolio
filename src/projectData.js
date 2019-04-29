@@ -19,7 +19,8 @@ export const projectData = [
     description:
       "A timesheet and project tracker developed in React JS / Rails. I developed the time tracking pages and contributed heavily to every part of the app.",
     image: hourglass,
-    link: "https://dp-hourglass.herokuapp.com"
+    link: "https://dp-hourglass.herokuapp.com",
+    requireLogin: true
   },
   {
     name: "Star Wars",
@@ -33,7 +34,8 @@ export const projectData = [
     description:
       "A comical version of the outdated MySpace I developed that showcases React JS on the front end with a rails API backend in a social networking setting.",
     image: meinespace,
-    link: "https://meinespace.herokuapp.com/"
+    link: "https://meinespace.herokuapp.com/",
+    requireLogin: true
   },
   {
     name: "Department Store",
@@ -46,13 +48,15 @@ export const projectData = [
     description:
       "A YouTube knockoff project I contributed heavily to during a hackathon event at devpoint labs.",
     image: utube,
-    link: "https://utube-crl.herokuapp.com"
+    link: "https://utube-crl.herokuapp.com",
+    requireLogin: true
   },
   {
     name: "Trollo",
     description:
       "An example task board type app I developed in Ruby on Rails, based loosly on trello.com",
     image: trollo,
-    link: "https://trollo-crl.herokuapp.com/"
+    link: "https://trollo-crl.herokuapp.com/",
+    requireLogin: true
   }
 ];
