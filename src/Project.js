@@ -29,7 +29,7 @@ class Project extends React.Component {
             {(p.name === "hourglass" || "meine space" || "trollo" || "utube") &&
               <Modal open={this.state.modalOpen} basic onClose={this.handleClose} >
                 <Modal.Content>
-                  <h1>On projects that require a credentials,
+                  <h1>On projects that require credentials,
                     login as admin@admin.com w/password: password
                     or register your own user.
             </h1>
