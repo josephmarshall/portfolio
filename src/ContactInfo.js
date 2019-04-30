@@ -19,7 +19,7 @@ const ContactInfo = () => (
     </div>
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Icon name="linkedin" color="white" />
-      <span> Linkedin</span>
+      <a href="https://www.linkedin.com/in/christopher-larsen-3b74ab184/"> Linkedin</a>
       <span style={{ margin: "0 5px 0 5px" }}>{"|"}</span>
       <div style={{ display: "flex", alignItems: "center" }}>
         <img
