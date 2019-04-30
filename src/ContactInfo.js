@@ -27,7 +27,8 @@ const ContactInfo = () => (
           src={upworkIcon}
           style={{ width: "16px", height: "14px" }}
         />
-        <span> Upwork </span>
+        <a href="
+        https://www.upwork.com/o/profiles/users/_~0198bb5ba99646d6e1/"> Upwork </a>
         <span style={{ margin: "0 5px 0 5px" }}>{"|"}</span>
         <span>
           <Icon name="phone square" color="white" />
