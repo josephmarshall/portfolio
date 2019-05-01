@@ -4,11 +4,11 @@ import cryptonHome2 from "./cryptonHome2.png"
 
 const CryptonHome = () => (
   <div style={{ minHeight: "100vh", width: "100%", background: "black" }}>
-    <div style={{ display: "flex", justifyContent: "space-around", }}>
-      <div style={{ color: "white", padding: "40px", textAlign: "justify" }}>
+    <div style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
+      <div style={{ color: "white", padding: "40px", textAlign: "justify", maxWidth: "100%" }}>
         <h3>
           I started the Crypton Investment Fund in 2017 in an attempt to capitalize on the high
-          volatility historically observed in crypto-currency markets.  The screen shots bellow and to the right
+          volatility historically observed in crypto-currency markets.  The screen shots below
           show the pertinent parts of the dashboard.
           The Fund continuously trades 25 assets using the software I developed.  2018 was a rought year for crypto in
           general and for the Fund specifically, although the software performed well despite market conditions.
@@ -22,13 +22,13 @@ const CryptonHome = () => (
           as both an aquisition and a disposal which can make the accounting tough.  I ended up using
           MongoDB for the backend and ruby for front end.
       </h3>
-        <div style={{ width: "100%", display: "flex", justifyContent: "center", padding: "40px" }}>
-          <img src={cryptonHome2} style={{ border: "solid white 2px" }} />
-        </div>
       </div>
       <div style={{ padding: "40px", marginTop: "20px", }}>
         <img src={cryptonHome} style={{ border: "solid white 2px" }} />
       </div>
+    </div>
+    <div style={{ width: "100%", display: "flex", justifyContent: "center", padding: "40px" }}>
+      <img src={cryptonHome2} style={{ border: "solid white 2px" }} />
     </div>
   </div>
 )
