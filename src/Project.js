@@ -22,7 +22,7 @@ class Project extends React.Component {
     )[0];
 
     return (
-      <Container>
+      <Container style={{ minWidth: "100vw", minHeight: "100vh" }}>
         <ProjectNavBar />
         {p.name === "CRYPTON" ? (<CryptonHome />) : (
           <>
@@ -40,7 +40,7 @@ class Project extends React.Component {
             </Button>
                 </Modal.Actions>
               </Modal>}
-            <iframe src={p.link} style={{ height: "80vh", width: "100%" }} />
+            <iframe src={p.link} style={{ height: "94vh", width: "100%" }} />
           </>
         )}
       </Container>
