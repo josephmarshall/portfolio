@@ -24,11 +24,11 @@ const CryptonHome = () => (
       </h3>
       </div>
       <div style={{ padding: "40px", marginTop: "20px", }}>
-        <img src={cryptonHome} style={{ border: "solid white 2px" }} />
+        <img src={cryptonHome} style={{ border: "solid white 2px", maxWidth: "100vw" }} />
       </div>
     </div>
     <div style={{ width: "100%", display: "flex", justifyContent: "center", padding: "40px" }}>
-      <img src={cryptonHome2} style={{ border: "solid white 2px" }} />
+      <img src={cryptonHome2} style={{ border: "solid white 2px", maxWidth: "100vw" }} />
     </div>
   </div>
 )
