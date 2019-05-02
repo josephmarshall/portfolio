@@ -5,9 +5,8 @@ import { Link } from "react-router-dom";
 import chris from "./chris_portrait.JPG";
 
 const ProjectNavBar = () => (
-  <Menu style={{ margin: 0, background: "black", borderBottom: "white solid 2px" }}>
+  <div style={{ margin: 0, background: "black", borderBottom: "white solid 2px", }}>
     <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
-
       <Menu.Item
         style={{
           padding: "5px",
@@ -39,7 +38,7 @@ const ProjectNavBar = () => (
         </Menu.Item>
       ))}
     </div>
-  </Menu>
+  </div>
 );
 
 export default ProjectNavBar;
